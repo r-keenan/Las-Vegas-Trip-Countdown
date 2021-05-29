@@ -21,7 +21,9 @@ const countdown = () => {
   document.querySelector(".hour").innerText = textHour;
   document.querySelector(".minute").innerText = textMinute;
   document.querySelector(".second").innerText = textSecond;
-
+  if (textHour <= 0) {
+    document.querySelector("#headline").innerText = "Vacation has started!";
+  }
   //   console.log(gap);
 };
 
