@@ -32,3 +32,8 @@ h2 {
 .second {
   font-size: 3rem;
 }
+
+.airplane {
+  margin-top: 10px;
+  height: 50vh;
+}
