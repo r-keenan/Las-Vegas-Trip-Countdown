@@ -7,3 +7,16 @@
 body {
   font-family: "Lato", sans-serif;
 }
+
+h2 {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.coming-soon {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
