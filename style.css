@@ -9,6 +9,7 @@ body {
 }
 
 h2 {
+  padding: 3rem;
   font-size: 5rem;
   font-weight: bold;
 }
@@ -19,4 +20,15 @@ h2 {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+}
+.countdown {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.day,
+.hour,
+.minute,
+.second {
+  font-size: 3rem;
 }
